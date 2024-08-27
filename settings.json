@@ -1,0 +1,74 @@
+{
+    "diffEditor.ignoreTrimWhitespace": true,
+    "C_Cpp.updateChannel": "Insiders",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.factorypath": true,
+        "**/.git": false,
+        "**/.project": true,
+        "**/.settings": true
+    },
+    "git.autofetch": true,
+    "mssql.connections": [
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": "{{put-password-here}}"
+        }
+    ],
+    "redhat.telemetry.enabled": true,
+    "tabnine.experimentalAutoImports": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "editor.accessibilitySupport": "off",
+    "editor.inlineSuggest.enabled": true,
+    "rapidapi.terminalLink.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "git.enableSmartCommit": true,
+    "workbench.tree.indent": 10,
+    "window.openFoldersInNewWindow": "on",
+    "explorer.confirmDragAndDrop": false,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false
+    },
+    "git.confirmSync": false,
+    "git.ignoreRebaseWarning": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.cursorBlinking": "phase",
+    "prettier.tabWidth": 4,
+    // "workbench.statusBar.visible": false,
+    // "workbench.activityBar.location": "hidden",
+
+    "search.useIgnoreFiles": false,
+    "search.exclude": {
+        // Hide everything in /vendor, except the "laravel" and "livewire" folder.
+        "**/vendor/{[^l],?[^ai]}*": true,
+        // Hide everything in /public, except "index.php"
+        "**/public/{[^i],?[^n]}*": true,
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/_ide_helper.php": true,
+        "**/composer.lock": true,
+        "**/package-lock.json": true,
+        "storage": true,
+        ".phpunit.result.cache": true
+    },
+
+    // Typography
+    "editor.suggestSelection": "first",
+    "editor.suggestFontSize": 16,
+    "terminal.integrated.fontFamily": "monospace",
+    "editor.fontFamily": "Consolas, 'Courier New', monospace ",
+    "editor.fontSize": 16,
+
+    // Custom CSS
+    "vscode_custom_css.imports": [
+        "file:///D:/vscode-settings/vscode.css"
+    ]
+}
